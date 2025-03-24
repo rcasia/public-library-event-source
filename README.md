@@ -30,12 +30,11 @@ curl --request POST \
 
 ```bash
 curl --request POST \
-  --url http://localhost:8080/books \
+  --url http://localhost:8080/books/1/lend \
   --header 'content-type: application/json' \
   --data '{
-  "id": "1",
-  "title": "Bratz",
-  "actor": "Bruno User"
+  "bookId": "1",
+  "lender": "Bruno User"
 }'
 
 ```
