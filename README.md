@@ -45,9 +45,5 @@ curl --request POST \
 ```bash
 curl --request GET \
   --url http://localhost:8080/books-stats \
-  --header 'content-type: application/json' \
-  --data '{
-  "bookId": "1",
-  "lender": "Bruno User"
-}'
+  --header 'content-type: application/json'
 ```
